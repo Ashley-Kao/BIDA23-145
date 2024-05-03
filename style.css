@@ -1,7 +1,9 @@
-
 *{margin: 0%;}
-p,h1, h3{
-    color: rgb(102, 109, 215);
+p,h1, h3, h4{
+    color: #ccc;
+}
+p,h3{
+    text-align: center;
 }
 
 nav{ 
@@ -11,9 +13,10 @@ nav{
         text-align: left;
     }
     
-    footer{ background-color: #ccc;
+    footer{
         background:dark  ;
         text-align: center; 
+        background-color: rgb(102, 109, 215)
     }
     #p1{
         text-align: center;
@@ -25,7 +28,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0;
    }
    .movie{
     padding: 20px;
@@ -65,7 +68,9 @@ nav{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 100%;
-    margin: 0 auto 0 auto;
+    gap: 5px;
+    margin: 0 ;
+ 
     
    }
    .movies1{
@@ -77,26 +82,32 @@ nav{
     
    }
    .main1 img{ 
-    width: 400px;
+    width: 70%;
     height: auto;
     border: thin solid white;
+    align-items: center;
+    margin-left: 15%;
+
     
    }
    .main1 img:hover{
     border: thin solid rgb(8, 8, 46);
-    width: 420px;
+    width: 73%;
     height: auto;
    }
    .form-group{
-
-    width: 25%;
+    width: 50%;
+    margin-left: 25%;
+    
    } 
 
    .follow{ display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 100%;
     margin: 0 0 0 0;
-    background: black;
+    background:  rgb(102, 109, 215);
+    padding: 0%;
+    column-width: 0px;
 
    }
    .follow img{
