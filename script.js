@@ -10,3 +10,12 @@ document.getElementById('form-control').addEventListener('submit', function(even
         event.preventDefault(); // Prevent form submission
     }
 });
+// JavaScript to toggle responsive navbar
+function toggleNavbar() {
+    var navbar = document.getElementById("myNavbar");
+    if (navbar.className === "navbar") {
+      navbar.className += " responsive";
+    } else {
+      navbar.className = "navbar";
+    }
+  }
