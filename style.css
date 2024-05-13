@@ -1,22 +1,32 @@
-*{margin: 0%;}
-p,h1, h3, h4{
-    color: #ccc;
-}
-p,h3{
-    text-align: center;
+*{margin: 0%;
 }
 
-nav{ 
+p,h3{
+    text-align: center;
+    color: #ccc;
+}
+h4{
+  text-align: center;
+  color: #ccc;
+  font-size: xx-large;
+}
+
+.navbar{ 
      background-color: #090f2e; color: white;
+     overflow: hidden;
     }
     h1{
         text-align: left;
+        color: #ccc;
+        margin-left: 1%;
+  
     }
     
     footer{
         background:dark  ;
         text-align: center; 
-        background-color: rgb(102, 109, 215)
+        background-color: #090f2e;
+        margin-top: 2%;
     }
     #p1{
         text-align: center;
@@ -55,6 +65,7 @@ nav{
     width: 100%;
     margin: 0 auto 0 auto;
     background: rgb(20, 20, 27);
+    margin-top: 1%;
    }
    .new{ font-weight: bold;
    }
@@ -82,17 +93,18 @@ nav{
     
    }
    .main1 img{ 
-    width: 70%;
+    width: 50%;
     height: auto;
     border: thin solid white;
     align-items: center;
     margin-left: 15%;
+    margin-top: 5%;
 
     
    }
    .main1 img:hover{
     border: thin solid rgb(8, 8, 46);
-    width: 73%;
+    width: 53%;
     height: auto;
    }
    .form-group{
@@ -117,3 +129,13 @@ nav{
    input:invalid {
     border: 2px solid red;
 }
+.thank{
+text-align: center;
+ font-size: large;
+ margin-top: 25%;
+}
+
+  @media screen and (max-width: 600px) {
+   
+  }
+  
