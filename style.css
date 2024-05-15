@@ -4,6 +4,9 @@
 p,h3{
     text-align: center;
     color: #ccc;
+    margin-right: 20%;
+    margin-left: auto;
+
 }
 h4{
   text-align: center;
@@ -30,6 +33,7 @@ h4{
     }
     #p1{
         text-align: center;
+        margin-left: 20%;
         }
     body{
         background: black;
@@ -138,4 +142,3 @@ text-align: center;
   @media screen and (max-width: 600px) {
    
   }
-  
